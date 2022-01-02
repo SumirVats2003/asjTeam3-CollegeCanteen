@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "706104898681",
+    "project_id": "college-canteen-86e4b",
+    "storage_bucket": "college-canteen-86e4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706104898681:android:fe29d32de5077a636850a8",
+        "android_client_info": {
+          "package_name": "com.company.collegecanteen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706104898681-5i6bo6orqc2kf1ct732klppsi1hmcpvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.collegecanteen",
+            "certificate_hash": "6a4f9752e1407dba370ec3be693950bc80ae0cc6"
+          }
+        },
+        {
+          "client_id": "706104898681-2eln79d4mtdan6nu76latr2bspnvj88f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6WBpvTqbG0gIFDa2tZWu2l27xoSEcAwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706104898681-2eln79d4mtdan6nu76latr2bspnvj88f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
