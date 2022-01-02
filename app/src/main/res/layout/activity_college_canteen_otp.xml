@@ -21,21 +21,23 @@ tools:context=".MainActivity">
     app:srcCompat="@drawable/ellipse"
     tools:ignore="ImageContrastCheck" />
 
-<ImageView
-    android:id="@+id/imageView9"
-    android:layout_width="101dp"
-    android:layout_height="89dp"
-    android:layout_marginStart="324dp"
-    android:layout_marginTop="-14dp"
-    android:layout_marginEnd="-16dp"
-    android:layout_marginBottom="642dp"
-    app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:srcCompat="@drawable/ellipse" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="101dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="-14dp"
+        android:layout_marginEnd="-16dp"
+        android:layout_marginBottom="642dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ellipse" />
 
-<ImageView
+    <ImageView
     android:id="@+id/imageView7"
     android:layout_width="242dp"
     android:layout_height="35dp"

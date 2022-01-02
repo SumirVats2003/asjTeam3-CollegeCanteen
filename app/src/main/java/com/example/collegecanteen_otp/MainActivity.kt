@@ -13,28 +13,24 @@ class MainActivity : AppCompatActivity() {
 
         val image_view = findViewById(R.id.sendOtp) as ImageView
 
-        fun nextActivity() {
-            image_view.setOnClickListener {
-                val intent = Intent(this, CollegeCanteenOTP::class.java)
-                startActivity(intent)
-            }
+        image_view.setOnClickListener {
+            val intent = Intent(this, CollegeCanteenOTP::class.java)
+            startActivity(intent)
         }
 
-        fun checkPhone(view: android.view.View) {
-            var phone = image_view.toString()
-            var numeric = true
-            if(phone.length == 10) {
-
-                try {
-                    val num = parseDouble(phone)
-                } catch (e: NumberFormatException) {
-                    numeric = false
-                }
-            }
-            if (numeric) {
-                nextActivity()
-            }
-
-        }
+//        fun checkPhone(view: android.view.View) {
+//            var phone = image_view.toString()
+//            var numeric = true
+//            if(phone.length == 10) {
+//                try {
+//                    val num = parseDouble(phone)
+//                } catch (e: NumberFormatException) {
+//                    numeric = false
+//                }
+//            }
+//            if (numeric) {
+//                nextActivity()
+//            }
+//        }
     }
 }
