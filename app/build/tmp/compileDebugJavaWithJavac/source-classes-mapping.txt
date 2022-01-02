@@ -1,0 +1,2 @@
+com/example/collegecanteen_otp/BuildConfig.java
+ com.example.collegecanteen_otp.BuildConfig
