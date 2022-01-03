@@ -104,7 +104,7 @@ tools:context=".MainActivity">
     app:srcCompat="@drawable/box" />
 
 <ImageView
-    android:id="@+id/imageView6"
+    android:id="@+id/validateOtp"
     android:layout_width="155dp"
     android:layout_height="48dp"
     android:layout_marginTop="29dp"

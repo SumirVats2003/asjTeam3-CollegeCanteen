@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">College Canteen - OTP</string>
+    <string name="app_name">College Canteen</string>
     <string name="welcome">WELCOME!</string>
     <string name="welcomeText">Enter your Phone Number to Continue......</string>
     <string name="todo">TODO</string>
@@ -10,4 +10,16 @@
     <string name="todo1">TODO</string>
     <string name="line">TODO</string>
     <string name="privacy">By tapping login, you agree to our Terms of Services and have read and acknowledged our Privacy Statement</string>
+<!--    <string name="app_name">page_1_ui</string>-->
+    <string name="textview">TextView</string>
+    <string name="college_canteen">College Canteen</string>
+    <string name="categories">Categories</string>
+    <string name="juices">Juices</string>
+    <string name="shakes">Shakes</string>
+    <string name="snacks">Snacks</string>
+    <string name="noodles">Noodles</string>
+<!--    <string name="todo1">TODO</string>-->
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
 </resources>

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeCanteenOTP">
         <activity
+            android:name=".foodOrder"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
             android:name=".CollegeCanteenOTP"
             android:exported="false" />
         <activity
