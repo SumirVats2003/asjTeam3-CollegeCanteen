@@ -13,7 +13,6 @@ import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthProvider
 
 class otp_page : AppCompatActivity() {
-
     lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,5 +56,4 @@ class otp_page : AppCompatActivity() {
                 }
             }
     }
-
 }

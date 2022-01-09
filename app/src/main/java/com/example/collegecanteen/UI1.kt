@@ -13,28 +13,21 @@ class UI1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ui1)
+
+        auth = FirebaseAuth.getInstance()
+        var currentUser = auth.currentUser
+
+//        Reference
+        //val logout=findViewById<Button>(R.id.idLogout)
+
+        if (currentUser == null) {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
         val button = findViewById<Button>(R.id.button)
         button.setOnClickListener{
             val intent = Intent(this, UI2::class.java)
             startActivity(intent)
         }
-
-        auth= FirebaseAuth.getInstance()
-        var currentUser=auth.currentUser
-
-//        Reference
-//        val logout=findViewById<Button>(R.id.idLogout)
-
-        if(currentUser==null){
-            startActivity(Intent(this,MainActivity::class.java))
-            finish()
-        }
-
-/*        logout.setOnClickListener{
-            auth.signOut()
-            startActivity(Intent(this,MainActivity::class.java))
-            finish()
-        }*/
-
     }
 }
