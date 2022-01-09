@@ -20,3 +20,4 @@ We believe that, this application, in particular contains a lot of potential in 
 <img width="180" alt="image" src="https://user-images.githubusercontent.com/96831851/148665105-413fef51-c227-4cc7-93b9-f879fa18eadf.png">
 
 
+Google Doc link: https://docs.google.com/document/d/e/2PACX-1vQbcfrL7PSnUOFgECrOHKC9579vj0VHuvzFbmexe9KpicAHD48_5BjMxz_7o8btrK-xRMxHBlM5u1dc/pub
